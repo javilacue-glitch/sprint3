@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sprint3JavierLacueva</string>
+    <string name="velada_title">La Velada del Año 2027</string>
+    <string name="velada_subtitle">El mayor evento de boxeo del mundo en directo</string>
+    <string name="btn_tickets">Comprar entradas</string>
+    <string name="velada_img_desc">Cartel oficial de La Velada del Año 2027</string>
+    <string name="toast_no_implemented">Todavía no está implementado</string>
+    <string name="card_default_title">Encabezado o título</string>
+    <string name="card_default_subtitle">Subtítulo</string>
+    <string name="card_default_description">Esta es una breve descripción sobre la Card</string>
+    <string name="card_default_action">Acción</string>
+    <string name="descr_card_avatar">Miniatura de la tarjeta</string>
+    <string name="desc_card_img">Imagen principal de la tarjeta</string>
+    <string name="desc_card_options">Más opciones de la tarjeta</string>
+    <string name="detail_header">Detalles del Evento</string>
+    <string name="card_velada_title">EL MAYOR EVENTO DE 2027</string>
+    <string name="card_velada_subtitle">En directo, solo en Netflix</string>
+    <string name="card_velada_description">Vive el combate principal de La Velada del Año 2027 en directo y en 4K, con acceso exclusivo al pesaje y los combates</string>
+    <string name="card_velada_primary_btn">Recordarme</string>
+    <string name="card_velada_secondary_btn">Ver cartelera</string>
+    <string name="card_velada_img_desc">Cartel oficial del combate estelar de La Velada 2027</string>
+    <string name="card_velada_avatar_desc">Logo de La Velada del Año 2027</string>
+</resources>

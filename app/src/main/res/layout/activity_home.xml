@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fondo_netflix"
+    android:fillViewport="true"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- IMAGEN PERSONALIZADA -->
+        <ImageView
+            android:id="@+id/imgVelada"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="#E50914"
+            android:contentDescription="@string/velada_img_desc"
+            android:elevation="6dp"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cartel_velada_2027" />
+
+        <!-- TÍTULO -->
+        <TextView
+            android:id="@+id/txtTituloVelada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:accessibilityHeading="true"
+            android:gravity="center"
+            android:letterSpacing="0.02"
+            android:text="@string/velada_title"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- SUBTÍTULO -->
+        <TextView
+            android:id="@+id/txtSubtituloVelada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/velada_subtitle"
+            android:textColor="#D1D1D1"
+            android:textSize="16sp" />
+
+        <!-- BOTÓN PERSONALIZADO -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnComprarEntradas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/bg_boton_velada"
+            android:minHeight="56dp"
+            android:text="@string/btn_tickets"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+</ScrollView>
