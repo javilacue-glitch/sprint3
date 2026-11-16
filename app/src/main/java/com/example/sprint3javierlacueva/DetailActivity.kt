@@ -5,6 +5,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.sprint3javierlacueva.databinding.ActivityDetailBinding
 
+/**
+ * Pantalla de detalle (Reto 9) que integra el componente personalizado MyCard.
+ * Utiliza View Binding para configurar dinámicamente los textos, cargar las imágenes
+ * de manera programática y gestionar las acciones de los botones de la tarjeta.
+ */
+
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
